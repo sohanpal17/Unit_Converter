@@ -34,7 +34,7 @@ This program handles case-sensitivity and invalid inputs gracefully, ensuring a 
 Here are some sample outputs from the Unit Converter:
 
 ![Screenshot 1](Screenshots/Screenshot%202025-07-08%20210811.png)  
-![Screenshot 2](Screenshots/Screenshot%202025-07-08%20211102.png)  
+![Screenshot 2](Screenshots/Screenshot%202025-07-08%2021102.png)  
 ![Screenshot 3](Screenshots/Screenshot%202025-07-08%20211101.png)
 
 ---
