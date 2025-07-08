@@ -18,6 +18,8 @@ This program handles case-sensitivity and invalid inputs gracefully, ensuring a 
   - Energy
   - Pressure
   - Power
+  - Angle
+  - Data
 
 ---
 
