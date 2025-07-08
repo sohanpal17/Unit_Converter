@@ -79,7 +79,9 @@ conversion_factors = {
     "f": "Area",
     "g": "Energy",
     "h": "Power",
-    "i": "Pressure"
+    "i": "Pressure",
+    "j": "Angle",
+    "k": "Data"
 }
 label ={
     "Mass" : Mass,
@@ -90,18 +92,20 @@ label ={
     "Area" : Area,
     "Energy" : Energy,
     "Power" : Power,
-    "Pressure" : Pressure
+    "Pressure" : Pressure,
+    "Angle" : Angle,
+    "Data" : Data
 }
 def unit_conversion():
     parameters = conversion_factors.keys()
     print("Select the conversion you would like to perform by inputting its assigned letter.")
     for parameter in parameters:
         print(f"{parameter}) {conversion_factors.get(parameter)}")
-    print("j) Temperature")
+    print("l) Temperature")
 
     conversion_type=input().lower()
 
-    if conversion_type=="j":
+    if conversion_type=="l":
         print("These are the following units")
         print("1) C\n"+ "2) F\n"+ "3) K\n")
         unit_input=input("Enter the unit to convert from (C/F/K): ").capitalize()
