@@ -110,22 +110,22 @@ def unit_conversion():
         if unit_input=="C":
             try:
                 unit=float(input("Enter the value you want to convert: "))
-                print(f"{unit*9/5+32:.2f} F")
-                print(f"{unit+273.15:.2f} K")
+                print(f"{unit*9/5+32:.6f} F")
+                print(f"{unit+273.15:.6f} K")
             except ValueError:
                 print("Enter only numbers")  
         elif unit_input=="F":
             try:
                 unit=float(input())
-                print(f"{(unit-32)*5/9:.2f} C")
-                print(f"{(unit-32)*5/9+273.15:.2f} K")
+                print(f"{(unit-32)*5/9:.6f} C")
+                print(f"{(unit-32)*5/9+273.15:.6f} K")
             except ValueError:
                 print("Enter only numbers")
         elif unit_input=="K":
             try:
                 unit=float(input())
-                print(f"{(unit-273.15)*9/5+32:.2f} F")
-                print(f"{unit-273.15:.2f} C")
+                print(f"{(unit-273.15)*9/5+32:.6f} F")
+                print(f"{unit-273.15:.6f} C")
             except ValueError:
                 print("Please enter a valid numeric input.")
         else:
@@ -149,7 +149,7 @@ def unit_conversion():
                 try:
                     value =float(input("Enter the value to convert: "))
                     answer=value*master_dict[unit1]/master_dict[unit2]
-                    print(f"{answer:.2f} {unit2}")
+                    print(f"{answer:.6f} {unit2}")
                     
                 except ValueError:
                     print("Please enter a valid numeric value.")
