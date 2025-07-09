@@ -70,6 +70,19 @@ Pressure = {
     "psi": 6894.76,
     "atm": 101325
     }
+Angle = {
+    "degree": 1,
+    "radian": 57.2958,
+    "grad": 0.9
+}
+Data = {
+    "bit": 1,
+    "byte": 8,
+    "kb": 8192,
+    "mb": 8388608,
+    "gb": 8589934592,
+    "tb": 8796093022208
+}
 conversion_factors = {
     "a": "Mass",
     "b": "Volume",
